@@ -17,7 +17,7 @@ title: Riffomonas Code Club
 email: pschloss@umich.edu
 description: > # this means to ignore newlines until "baseurl:"
   Pat Schloss's code club documents.
-baseurl: "/live_stream_projects" # the subpath of your site, e.g. /blog
+baseurl: "/live_streams" # the subpath of your site, e.g. /blog
 url: "https://www.riffomonas.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: patschloss
 github_username:  riffomonas
@@ -25,8 +25,10 @@ repo: https://github.com/riffomonas/live_stream_projects
 
 
 collections:
-  code_club:
+  live_streams:
     output: true
+    permalink: /:name
+
 
 layouts_dir: /resources/_layouts
 includes_dir: /resources/_includes
