@@ -27,7 +27,7 @@ For now, let's have fun with a few quirky datasets.
 
 <ul class="post-preview">
 
-	{% assign sorted = (site.live_streams | sort: 'date') | reverse %}
+	{% assign sorted = site.live_streams | sort: 'date' | reverse %}
 
   {% for post in sorted %}
     <li>
